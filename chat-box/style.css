@@ -27,6 +27,9 @@
     background-color: #fff;
 }
 
+.list-friend .users {
+    overflow: auto;
+}
 .search-form {
     position: relative;
     margin-top: 17px;
@@ -52,7 +55,7 @@
     border-radius: 2px;
 }
 
-.users>ul>li {
+.users > ul > li {
     list-style: none;
 }
 
@@ -78,7 +81,7 @@
     object-fit: cover;
     overflow:hidden;
 }
-.user-information>.avt-image {
+.user-information > .avt-image {
     border-color: #91BA78;
 }
 .avt-image>img {
@@ -86,27 +89,27 @@
     object-position: -37px -3px;
 }
 
-
-
 .text-name-status {
     display: flex;
     flex-direction: column;
     justify-content: center;
     color: #F4F5FA;
-    
-
     margin-left: 10px;
 }
 
-.text-name-status>.name>p {
+.text-name-status > .name p {
     font-size: 12px;
     margin-bottom: 3px;
 }
-.text-name-status>.status>p {
+.text-name-status > .name a {
+    text-decoration: none;
+    color: #F4F5FA;
+}
+.text-name-status > .status > p {
     font-size: 11px;
     color: #72747E;
 }
-.text-name-status>.status .fa-circle {
+.text-name-status > .status .fa-circle {
     font-size: 8px;
     margin-right: 5px;
     color: #91BA78;
@@ -153,7 +156,7 @@
     box-sizing: border-box;
 }
 
-.user-information>.information {
+.user-information > .information {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -198,13 +201,13 @@
     text-align: right;
 }
 
-.client>.client-name,
-.server>.server-name {
+.client > .client-name,
+.server > .server-name {
     font-weight: bold;
 }
 
-.client>.client-name>.time,
-.server>.server-name>.time {
+.client > .client-name > .time,
+.server > .server-name > .time {
     color: #72747E;
     font-weight: normal;
 } 
@@ -254,12 +257,12 @@
     font-weight: bold;
     margin-bottom: 7px;
 }
-.typing>.time {
+.typing > .time {
     color: #72747E;
     font-weight: normal;
 }
 
-.three-dots>.fa-circle {
+.three-dots > .fa-circle {
     font-size: 8px;
     margin-right: 3px;
     color: #91BA78;
@@ -293,7 +296,3 @@
     font-size: 15px;
     margin-right: 8px;
 }
-
-
-
-
