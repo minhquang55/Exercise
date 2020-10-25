@@ -1,0 +1,183 @@
+.main-container {
+  width: 100%;
+  height: 1200px;
+  background-color: #575B74;
+  padding: 0 90px;
+  text-align: center;
+  box-sizing: border-box; }
+  .main-container .lorem-ipsum-dolor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    height: 350px;
+    box-sizing: border-box;
+    padding: 30px; }
+    .main-container .lorem-ipsum-dolor .content {
+      height: 50px;
+      color: #4E575D; }
+      .main-container .lorem-ipsum-dolor .content p:first-child {
+        font-size: 19px;
+        font-weight: bold;
+        margin-bottom: 5px; }
+      .main-container .lorem-ipsum-dolor .content p:last-child {
+        font-size: 11px; }
+    .main-container .lorem-ipsum-dolor .option {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 35px; }
+      .main-container .lorem-ipsum-dolor .option .camera {
+        box-sizing: border-box;
+        padding: 20px 20px;
+        height: 100%;
+        width: 33.33%; }
+        .main-container .lorem-ipsum-dolor .option .camera .camera-icon {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 1px solid #8F94A4;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #4DAAAF;
+          margin: 10% auto; }
+        .main-container .lorem-ipsum-dolor .option .camera .introduce {
+          font-size: 13px; }
+      .main-container .lorem-ipsum-dolor .option .paper-plane {
+        border-right: 1px solid #8F94A4;
+        border-left: 1px solid #8F94A4;
+        height: 100%;
+        width: 33.33%;
+        box-sizing: border-box;
+        padding: 20px 20px; }
+        .main-container .lorem-ipsum-dolor .option .paper-plane .paper-plane-icon {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 1px solid #8F94A4;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #6AC8AE;
+          margin: 10% auto; }
+        .main-container .lorem-ipsum-dolor .option .paper-plane .introduce {
+          font-size: 13px; }
+      .main-container .lorem-ipsum-dolor .option .mail {
+        height: 100%;
+        width: 33.33%;
+        box-sizing: border-box;
+        padding: 20px 20px; }
+        .main-container .lorem-ipsum-dolor .option .mail .mail-icon {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 1px solid #8F94A4;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          color: #FFD788;
+          margin: 10% auto; }
+        .main-container .lorem-ipsum-dolor .option .mail .introduce {
+          font-size: 13px; }
+  .main-container .gallery {
+    width: 100%;
+    height: 350px;
+    background-color: #FFD586;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .main-container .gallery .slide {
+      height: 80%;
+      width: 80%;
+      overflow: hidden;
+      margin: 0 20px; }
+      .main-container .gallery .slide .myslide {
+        width: 100%;
+        display: none; }
+    .main-container .gallery button {
+      background-color: #FFD586;
+      border-style: none;
+      cursor: pointer;
+      font-size: 40px;
+      color: rgba(255, 255, 255, 0.5); }
+    .main-container .gallery button:hover {
+      color: white; }
+  .main-container .description {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    color: #575B74; }
+    .main-container .description .content {
+      padding: 20px 0;
+      height: 90px;
+      box-sizing: border-box; }
+    .main-container .description .description-box {
+      height: 70%;
+      width: 90%;
+      margin: 0 auto;
+      box-shadow: 0 0 3px 0px black; }
+      .main-container .description .description-box .description-box-up {
+        display: flex;
+        width: 100%;
+        height: 50%; }
+        .main-container .description .description-box .description-box-up .description-box-up-left {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+          padding: 0 20px;
+          width: 40%;
+          height: 100%; }
+          .main-container .description .description-box .description-box-up .description-box-up-left .title {
+            font-size: 19px; }
+          .main-container .description .description-box .description-box-up .description-box-up-left p:not(.title) {
+            font-size: 12px;
+            margin: 20px 0; }
+          .main-container .description .description-box .description-box-up .description-box-up-left button {
+            width: 70px;
+            height: 30px;
+            border-radius: 31px;
+            border-style: none;
+            box-shadow: 0px 0px 5px black;
+            background-color: #575B74;
+            color: #F0F7FF; }
+        .main-container .description .description-box .description-box-up .description-box-up-right {
+          width: 60%;
+          height: 100%;
+          overflow: hidden; }
+          .main-container .description .description-box .description-box-up .description-box-up-right img {
+            width: 100%; }
+      .main-container .description .description-box .description-box-down {
+        display: flex;
+        width: 100%;
+        height: 50%; }
+        .main-container .description .description-box .description-box-down .description-box-down-left {
+          width: 40%;
+          height: 100%;
+          overflow: hidden; }
+          .main-container .description .description-box .description-box-down .description-box-down-left img {
+            height: 100%; }
+        .main-container .description .description-box .description-box-down .description-box-down-right {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+          padding: 0 20px;
+          width: 60%;
+          height: 100%; }
+          .main-container .description .description-box .description-box-down .description-box-down-right .title {
+            font-size: 19px; }
+          .main-container .description .description-box .description-box-down .description-box-down-right p:not(.title) {
+            font-size: 12px;
+            margin: 20px 0; }
+          .main-container .description .description-box .description-box-down .description-box-down-right button {
+            width: 70px;
+            height: 30px;
+            border-radius: 31px;
+            border-style: none;
+            box-shadow: 0px 0px 5px black;
+            background-color: #575B74;
+            color: #F0F7FF; }

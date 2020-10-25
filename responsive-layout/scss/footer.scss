@@ -1,0 +1,88 @@
+.footer-container {
+    box-sizing: border-box;
+    padding: 0 90px;
+    background-color: #4E5366;
+    width: 100%;
+    height: 500px;
+    .search-box {
+        text-align: center;
+        width: 100%;
+        height: 150px;
+        background-color: #4DAAAF;
+        .content {
+            text-align: center;
+            color: seashell;
+            padding: 20px 0;
+            p {
+                line-height: 25px;
+            }
+            p:first-child {
+                font-size: 16px;
+            }
+            p:last-child {
+                font-size: 10px;
+            }
+        }
+        .search-input {
+            input {
+                border: 0;
+                border-style: none;
+            }
+            input:first-child {
+                width: 250px;
+                height: 25px;
+                margin-right: 0;
+                border-top-left-radius: 10px;
+                border-bottom-left-radius: 10px;
+                padding-left: 10px;
+                box-shadow: 0 0 4px 0 #4E5366;
+            }
+            input:last-child {
+                width: 65px;
+                height: 25px;
+                margin-left: 0;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+                box-shadow: 0 0 4px 0 #4E5366;
+                background-color: #4DAAAF;
+                color: aliceblue;
+            }
+        }
+    }
+    .more-information {
+        margin-top: 20px;
+        .abouts {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            height: 130px;
+            .about {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 25%;
+                height: 100%;
+                box-sizing: border-box;
+            }
+            .about:nth-child(2){
+                border-right:1px solid slategray ;
+                border-left:1px solid slategray ;
+            }
+            .about:nth-child(3){
+                border-right:1px solid slategray ;
+            }
+        }
+        .contact {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            .address {
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}

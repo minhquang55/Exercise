@@ -1,0 +1,10 @@
+.container {
+    width: 50%;
+    height: 2150px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    @import 'header';
+    @import 'main';
+    @import 'footer';
+}
