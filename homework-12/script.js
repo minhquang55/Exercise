@@ -18,8 +18,12 @@ const chunk = (arr, count) => {
 }
 
 // Excercise 4:
-const intersection = (arr1, arr2) => {
-  return _.intersection(arr1, arr2);
+const intersection = (...arr) => {
+  let same = arr[0];
+  for (let i = 1; i < arr.length; i++) {
+    same = _.intersection(same, arr[i]);
+  }
+  return same;
 }
 
 // Exercise 5:
