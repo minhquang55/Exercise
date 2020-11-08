@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="sum">
+        <h1>Exercise 1:</h1>
+        <span>Nhap a: </span>
+        <input type="number" id="first-num">
+        <br/>
+        <span>Nhap b: </span>
+        <input type="number" id="second-num"> 
+        <br/>
+        <button id="sumBtn" onclick="sum()">Tính tổng</button>
+        <p id="sum-line"></p>
+    </div>
+
+    <div>
+        <h1>Exercise 2:</h1>
+        <div id="box" onclick="changeColor()">
+            Click me!
+        </div>
+    </div>
+
+    <div class="product">
+        <h1>Exercise 3:</h1>
+        <select id="product-select" onchange="displayProduct()">
+            <option value="Laptop">Laptop</option>
+            <option value="Mobile">Điện thoại</option>
+            <option value="TV">TV</option>
+        </select>
+        <ul id="laptop-brand-list">
+            <li>Macbook</li>
+            <li>Dell</li>
+            <li>Lenovo</li>
+            <li>Asus</li>
+        </ul>
+        <ul id="mobile-brand-list">
+            <li>Apple</li>
+            <li>Samsung</li>
+            <li>Nokia</li>
+        </ul>
+        <ul id="TV-brand-list">
+            <li>LG</li>
+            <li>Sony</li>
+        </ul>
+    </div>
+
+    <div>
+        <h1>Exercise 4:</h1>
+    </div>
+
+</body>
+</html>
