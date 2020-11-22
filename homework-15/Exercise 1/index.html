@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper-list-members">
+        <h1>Members of React class</h1>
+
+        <div id="header-btn">
+            <button id="add-member" onclick="showFormAdd()">Add</button>
+            <button id="delete-member" onclick="handleDeleteMembers()">Delete</button>
+        </div>
+
+        <table> 
+            <thead>
+                <td><input type="checkbox" id="check-all" onchange="handleCheckBoxAll()"></td>
+                <td>ID</td>
+                <td>Full Name</td>
+                <td>Gender</td>
+                <td>Age</td>
+                <td>Action</td>
+            </thead>
+            
+        </table>  
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
