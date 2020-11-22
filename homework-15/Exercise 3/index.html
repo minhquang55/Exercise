@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300|Shadows+Into+Light">
+</head>
+<body>
+    <div class="wrapper-container">
+        <div class="wrapper-selecting-container">
+            <div class="pokemon-select-container">
+                <p>Choose your five:</p>
+                <div class="pokemons">
+
+                </div>
+            </div>
+            <div class="pokemon-information">
+                <div class="main-pokemon-information-container">
+                    <img class="pokemon-image">
+                    <p class="pokemon-name">Pokemon's name here</p>
+                    <div class="pokemon-detail">
+                        <div class="bar">
+                            <span>HP</span>
+                            <span class="pokemon-hp"></span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-percent-hp"></div>
+                        </div>
+                    </div>
+                    <div class="pokemon-detail">
+                        <div class="bar">
+                            <span>ATK</span>
+                            <span class="pokemon-atk"></span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-percent-atk"></div>
+                        </div>
+                    </div>
+                    <button onclick="handleAddPokemon()">ADD</button>
+                    <p class="full-pokemons">You have selected 5 Pokemons.</p>
+                </div>
+            </div>
+        </div>
+        <div class="selected-container">
+            <div class="content" ondblclick="showEditForm()">
+                <span>Cereal Killers </span>
+                <span>(Double click to edit)</span>
+                <input type="text" class="content-edit-form" onkeydown="submitChangeContent(event)">
+            </div>
+            <div class="choosed-pokemons">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
